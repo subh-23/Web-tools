@@ -126,9 +126,7 @@ function initialize(passport) {
                 return done(error, false)
             }
         }))
-```
-- mandatory boilerplate at the end
-```bash
+
     passport.serializeUser((user, done) => {
         done(null, user.id)
     })
