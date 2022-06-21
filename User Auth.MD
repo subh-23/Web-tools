@@ -105,7 +105,7 @@ function checkNotAuthenticated(req, res, next) {
     next()
 }
 ```
-### Step 3 (create a passport config file and copy-paste it)
+### Step 3 (create a passport-config.js file and copy-paste it)
 - import files 
 ```bash
 const LocalStrategy = require('passport-local').Strategy
