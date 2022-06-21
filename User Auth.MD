@@ -79,7 +79,7 @@ app.delete('/logout', function (req, res, next) {
 });
 ```
 
-- accessing main index pages
+- accessing main index pages (authentication barrier)
 ```bash
 app.get('/', checkAuthenticated, (req, res) => {
     res.render('index');
